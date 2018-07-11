@@ -10,6 +10,7 @@ Skills: Api Programming, Multithreading, Python, MongoDB
 Command:
 python program.py config.py
 
+
 Process:
 The program 
 1.calls the Open Weather Map API 
