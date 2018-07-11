@@ -34,15 +34,7 @@ def get_data(url,report_type):
 				print "It is snowing in ", str(obj['city']['name']), " on ", str(obj['list'][each]['dt_txt'])
 			if (('rain' in obj['list'][each].keys()) and any(obj['list'][each]['rain'])):
 				print "It is Raining in ", str(obj['city']['name']), " on ", str(obj['list'][each]['dt_txt'])
-				
-			'''
-			if(obj['list'][each]['main']['temp_min']<256.484):
-				print("AlERT! Temperature less than 2 degree Farenheit in ", obj['city']['name'], " on ", obj['list'][each]['dt_txt'])
-			if (('snow' in obj['list'][each].keys()) and any(obj['list'][each]['snow'])):
-				print("It is snowing in ", obj['city']['name'], " on ", obj['list'][each]['dt_txt'])
-			if (('rain' in obj['list'][each].keys()) and any(obj['list'][each]['rain'])):
-				print("It is Raining in ", obj['city']['name'], " on ", obj['list'][each]['dt_txt'])
-			'''
+
 
 
 
